@@ -1,12 +1,3 @@
-terraform {
-  required_providers {
-    infoblox = {
-      source = "infobloxopen/infoblox"
-      version = "1.1.1"
-    }
-  }
-}
-
 provider "infoblox"{
     username = "admin"
     password = "P@ssw0rd"
