@@ -75,3 +75,11 @@ variable "linked_clone" {
   description = "Clone this virtual machine from a snapshot. Templates must have a single snapshot only in order to be eligible."
   default     = false
 }
+
+# For infoblox
+
+variable "ip_addr" {
+  type = string
+}
+
+
