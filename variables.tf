@@ -44,7 +44,7 @@ variable "vsphere_vm_portgroup" {
 variable "vsphere_vm_cpu" {
   type = number
   description = "the number of vCpus"
-  default = 4
+  default = 2
 }
 
 variable "vsphere_vm_memory" {
@@ -75,11 +75,3 @@ variable "linked_clone" {
   description = "Clone this virtual machine from a snapshot. Templates must have a single snapshot only in order to be eligible."
   default     = false
 }
-
-# For infoblox
-
-variable "ip_addr" {
-  type = string
-}
-
-
